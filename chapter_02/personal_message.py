@@ -1,2 +1,3 @@
-name = "Ankur!"
-print(f"Hello {name}, would you kike to learn some python today ?")
+file_name = "python_note.txt"
+file_without_suffix = file_name.removesuffix(".txt")
+print(file_without_suffix)
