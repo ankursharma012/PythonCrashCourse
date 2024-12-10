@@ -1,7 +1,5 @@
-cars = ['bmw', 'toyota', 'audi', 'honda']
-print('Test')
-for car in cars:
-    if car == 'bmw':
-        print(car.upper())
-    else:
-        print(car.title())
+toppings = ['peper', 'test', 'pizza']
+if 'peper' in toppings:
+    print("Pepper is there")
+else:
+    print("Pepper is not there")
