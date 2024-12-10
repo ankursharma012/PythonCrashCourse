@@ -1,5 +1,5 @@
-toppings = ['peper', 'test', 'pizza']
-if 'peper' in toppings:
-    print("Pepper is there")
+list_of_toppings = []
+if list_of_toppings:
+    print("Empty list")
 else:
-    print("Pepper is not there")
+    print("Not an empty list!")
