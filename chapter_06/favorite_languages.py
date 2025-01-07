@@ -1,9 +1,10 @@
 favorite_languages = {
     'jen':'python',
     'sarah':'c',
-    'edward':'rust'
+    'edward':'rust',
+    'edward1':'rust'
 }
-language = favorite_languages['sarah'].title()
-print(f"Sarah's favourite language is {language}")
-point_value = favorite_languages.get('point', 'No such string defined')
-print(point_value)
+
+for value in set(favorite_languages.values()):
+    print(f"Someone likes the language {value}")
+
